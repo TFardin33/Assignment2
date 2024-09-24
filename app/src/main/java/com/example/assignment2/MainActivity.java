@@ -102,7 +102,7 @@ public class StatusBar extends AppCompatActivity {
         TextView discountText = dialogView.findViewById(R.id.discount_text);
         Button okButton = dialogView.findViewById(R.id.ok_button);
 
-        // Set the summary details
+        // Settin the summary detailsv
         summaryTitle.setText("Grocery Order Summary");
         itemsText.setText("Selected Items: " + selectedItems.toString());
         categoryText.setText("Category: " + selectedCategory);
